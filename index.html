@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google</title>
+<meta name="description" content="Just Google, don't open unless you are a person. Also click the link if you wanna use windows in ur browser.">
+<link rel="icon" type="image/x-icon" href="https://www.google.com/favicon.ico">
+<style>
+    #iframe-container {
+        position: relative;
+        padding-bottom: 30px; /* Height of the warning message */
+    }
+    #warning-message {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #f44336;
+        color: white;
+        text-align: center;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+<div id="iframe-container">
+    <iframe id="myIframe" width="100%" height="500"></iframe>
+    <div id="warning-message">Website may not work due to an error in the website being shown.</div>
+</div>
+
+<script>
+    const iframe = document.getElementById('myIframe');
+    const warningMessage = document.getElementById('warning-message');
+
+    iframe.src = 'https://example.com'; // Initial website shown in the iframe
+
+    iframe.onload = function() {
+        if (iframe.contentWindow.location.href !== 'https://app.apponfly.com/trial') {
+            iframe.src = iframe.contentWindow.location.href;
+        }
+    };
+
+    iframe.onerror = function() {
+        warningMessage.style.display = 'block';
+    };
+</script>
+</body>
+</html>
