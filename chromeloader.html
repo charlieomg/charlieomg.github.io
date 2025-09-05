@@ -2,75 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>&**&*&*&%&^%^</title>
+  <title>made for lego wedo 2.0 exploit</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #0d1117;
-      color: #fff;
-      text-align: center;
-      padding: 40px;
+      font-family: monospace;
+      background: #000;
+      color: #0f0;
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
     }
     h1, h2 {
-      margin-bottom: 20px;
+      margin: 10px 0;
     }
-    .section {
-      margin-bottom: 40px;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      text-align: left;
     }
-    button {
-      display: block;
-      margin: 10px auto;
-      padding: 12px 24px;
-      font-size: 16px;
-      font-weight: bold;
-      border: none;
-      border-radius: 10px;
-      background: #238636;
-      color: white;
-      cursor: pointer;
-      transition: 0.2s;
+    li {
+      padding: 6px 20px;
+      font-size: 18px;
     }
-    button:hover {
-      background: #2ea043;
+    li.selected {
+      background: #0f0;
+      color: #000;
     }
     footer {
-      margin-top: auto;
-      padding-top: 20px;
+      position: absolute;
+      bottom: 15px;
       font-size: 14px;
-      color: #aaa;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>Boot Panel</h1>
-  <div class="section">
-    <button onclick="window.location.href='https://terbiumon.top/'">Boot Terbium</button>
-    <button onclick="window.location.href='https://anura.pro/'">Boot Anura</button>
-  </div>
+  <h1>RDNLoader</h1>
+  <h2>Boot Panel</h2>
+  <ul id="bootMenu">
+    <li>Boot Terbium</li>
+    <li>Boot Anura</li>
+  </ul>
 
   <h2>Else Category</h2>
-  <div class="section">
-    <button onclick="alert('Flashed all extensions! To unflash close out of the RDNLoader.')">Flash Extensions</button>
-    <button onclick="window.location.href='https://ruffle.rs/'">Load SWF</button>
-    <button onclick="window.location.href='https://google.com/'">UBGoogle</button>
-    <button onclick="window.location.href='https://titaniumnetwork.org/services/'">TitaniumServices</button>
-    <button onclick="openWebsite()">Open</button>
-  </div>
+  <ul id="elseMenu">
+    <li>Flash Extensions</li>
+    <li>Load SWF</li>
+    <li>UBGoogle</li>
+    <li>TitaniumServices</li>
+    <li>Open</li>
+  </ul>
 
-  <footer>
-    RDNLoader Made by Radar
-  </footer>
+  <footer>RDNLoader Made by Radar</footer>
 
   <script>
-    function openWebsite() {
-      let site = prompt("Enter a website URL (include https://):");
-      if (site) {
-        window.location.href = site;
+    const actions = {
+      "Boot Terbium": () => window.location.href = "https://terbiumon.top/",
+      "Boot Anura": () => window.location.href = "https://anura.pro/",
+      "Flash Extensions": () => alert("Flashed all extensions! To unflash close out of the RDNLoader."),
+      "Load SWF": () => window.location.href = "https://ruffle.rs/",
+      "UBGoogle": () => window.location.href = "https://google.com/",
+      "TitaniumServices": () => window.location.href = "https://titaniumnetwork.org/services/",
+      "Open": () => {
+        let site = prompt("Enter a website URL (include https://):");
+        if (site) window.location.href = site;
       }
-    }
+    };
+
+    const allItems = document.querySelectorAll("li");
+    let index = 0;
+    allItems[index].classList.add("selected");
+
+    document.addEventListener("keydown", (e) => {
+      allItems[index].classList.remove("selected");
+      if (e.key === "ArrowDown") {
+        index = (index + 1) % allItems.length;
+      } else if (e.key === "ArrowUp") {
+        index = (index - 1 + allItems.length) % allItems.length;
+      } else if (e.key === "Enter") {
+        const choice = allItems[index].textContent;
+        actions[choice]();
+      }
+      allItems[index].classList.add("selected");
+    });
   </script>
 </body>
 </html>
