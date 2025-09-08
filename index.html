@@ -42,6 +42,8 @@
 </head>
 <body>
   <h1>RDNLoader</h1>
+  <h2 id="chromeVersion">ChromeOS Version: Detecting...</h2>
+
   <h2>Boot Panel</h2>
   <ul id="bootMenu">
     <li>Boot Terbium</li>
@@ -55,11 +57,20 @@
     <li>UBGoogle</li>
     <li>TitaniumServices</li>
     <li>Open</li>
+    <li>CROS</li>
+    <li>EXT-r3mover</li>
   </ul>
 
   <footer>RDNLoader Made by Radar</footer>
 
   <script>
+    // Detect ChromeOS version from userAgent
+    const ua = navigator.userAgent;
+    const versionMatch = ua.match(/CrOS [^ ]+ ([\d.]+)/);
+    const version = versionMatch ? versionMatch[1] : "Unknown";
+    document.getElementById("chromeVersion").textContent = "ChromeOS Version: " + version;
+
+    // Actions
     const actions = {
       "Boot Terbium": () => window.location.href = "https://terbiumon.top/",
       "Boot Anura": () => window.location.href = "https://anura.pro/",
@@ -70,9 +81,12 @@
       "Open": () => {
         let site = prompt("Enter a website URL (include https://):");
         if (site) window.location.href = site;
-      }
+      },
+      "CROS": () => window.location.href = "https://cros.download/",
+      "EXT-r3mover": () => window.location.href = "https://ext-remover.net/"
     };
 
+    // Menu navigation
     const allItems = document.querySelectorAll("li");
     let index = 0;
     allItems[index].classList.add("selected");
