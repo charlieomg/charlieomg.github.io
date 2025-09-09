@@ -38,6 +38,31 @@
       font-size: 14px;
       color: #888;
     }
+    /* Terminal overlay */
+    #terminalOverlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: #000;
+      color: #0f0;
+      font-family: monospace;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+    #terminalOutput {
+      white-space: pre-wrap;
+      margin-bottom: 5px;
+    }
+    #terminalInput {
+      width: 100%;
+      background: #000;
+      border: none;
+      color: #0f0;
+      outline: none;
+      font-family: monospace;
+    }
   </style>
 </head>
 <body>
@@ -59,14 +84,21 @@
     <li>Open</li>
     <li>CROS</li>
     <li>EXT-r3mover</li>
+    <li>Bash Terminal</li>
   </ul>
 
   <footer>RDNLoader Made by Radar</footer>
 
+  <!-- Terminal Overlay -->
+  <div id="terminalOverlay">
+    <div id="terminalOutput"></div>
+    <span>$ </span><input type="text" id="terminalInput" autofocus />
+  </div>
+
   <script>
     // Detect ChromeOS version from userAgent
     const ua = navigator.userAgent;
-    const versionMatch = ua.match(/CrOS [^ ]+ ([\d.]+)/);
+    const versionMatch = ua.match(/CrOS [^ ]+ ([\\d.]+)/);
     const version = versionMatch ? versionMatch[1] : "Unknown";
     document.getElementById("chromeVersion").textContent = "ChromeOS Version: " + version;
 
@@ -83,7 +115,8 @@
         if (site) window.location.href = site;
       },
       "CROS": () => window.location.href = "https://cros.download/",
-      "EXT-r3mover": () => window.location.href = "https://ext-remover.net/"
+      "EXT-r3mover": () => window.location.href = "https://ext-remover.net/",
+      "Bash Terminal": () => openTerminal()
     };
 
     // Menu navigation
@@ -92,6 +125,7 @@
     allItems[index].classList.add("selected");
 
     document.addEventListener("keydown", (e) => {
+      if (document.getElementById("terminalOverlay").style.display === "block") return;
       allItems[index].classList.remove("selected");
       if (e.key === "ArrowDown") {
         index = (index + 1) % allItems.length;
@@ -103,6 +137,54 @@
       }
       allItems[index].classList.add("selected");
     });
+
+    // Terminal logic
+    function openTerminal() {
+      document.getElementById("terminalOverlay").style.display = "block";
+      document.getElementById("terminalInput").focus();
+      printOutput("Welcome to Bash Terminal (simulated)\nType 'help' for commands.\n");
+    }
+
+    function closeTerminal() {
+      document.getElementById("terminalOverlay").style.display = "none";
+      document.getElementById("terminalOutput").textContent = "";
+    }
+
+    const terminalInput = document.getElementById("terminalInput");
+    const terminalOutput = document.getElementById("terminalOutput");
+
+    terminalInput.addEventListener("keydown", function(e) {
+      if (e.key === "Enter") {
+        const cmd = this.value.trim();
+        this.value = "";
+        handleCommand(cmd);
+      }
+    });
+
+    function printOutput(text) {
+      terminalOutput.textContent += text + "\\n";
+      terminalOutput.scrollTop = terminalOutput.scrollHeight;
+    }
+
+    function handleCommand(cmd) {
+      switch(cmd) {
+        case "help":
+          printOutput("Available commands: help, echo, clear, exit");
+          break;
+        case "clear":
+          terminalOutput.textContent = "";
+          break;
+        case "exit":
+          closeTerminal();
+          break;
+        default:
+          if (cmd.startsWith("echo ")) {
+            printOutput(cmd.slice(5));
+          } else if (cmd) {
+            printOutput("bash: " + cmd + ": command not found");
+          }
+      }
+    }
   </script>
 </body>
 </html>
