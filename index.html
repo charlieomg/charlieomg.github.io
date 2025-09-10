@@ -85,6 +85,7 @@
     <li>CROS</li>
     <li>EXT-r3mover</li>
     <li>Bash Terminal</li>
+    <li>Redirect</li>
   </ul>
 
   <footer>RDNLoader Made by Radar</footer>
@@ -98,7 +99,7 @@
   <script>
     // Detect ChromeOS version from userAgent
     const ua = navigator.userAgent;
-    const versionMatch = ua.match(/CrOS [^ ]+ ([\\d.]+)/);
+    const versionMatch = ua.match(/CrOS [^ ]+ ([\d.]+)/);
     const version = versionMatch ? versionMatch[1] : "Unknown";
     document.getElementById("chromeVersion").textContent = "ChromeOS Version: " + version;
 
@@ -116,7 +117,8 @@
       },
       "CROS": () => window.location.href = "https://cros.download/",
       "EXT-r3mover": () => window.location.href = "https://ext-remover.net/",
-      "Bash Terminal": () => openTerminal()
+      "Bash Terminal": () => openTerminal(),
+      "Redirect": () => window.location.href = "https://charlieomg.github.io/"
     };
 
     // Menu navigation
@@ -162,7 +164,7 @@
     });
 
     function printOutput(text) {
-      terminalOutput.textContent += text + "\\n";
+      terminalOutput.textContent += text + "\n";
       terminalOutput.scrollTop = terminalOutput.scrollHeight;
     }
 
@@ -188,3 +190,4 @@
   </script>
 </body>
 </html>
+
