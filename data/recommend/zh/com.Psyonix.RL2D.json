@@ -1,0 +1,137 @@
+[
+  {
+    "id": "com.supercell.clashroyale",
+    "title": "部落衝突:皇室戰爭",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Clash_Royale.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.innersloth.spacemafia",
+    "title": "Among Us",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Among_Us.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.roblox.client",
+    "title": "Roblox",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Roblox.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.weaver.app.prod",
+    "title": "Talkie: Creative AI Community",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Talkie_Creative_AI_Community.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.kitkagames.fallbuddies",
+    "title": "Stumble Guys",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Stumble_Guys.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.supercell.brawlstars",
+    "title": "荒野亂鬥",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Brawl_Stars.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.dts.freefireth",
+    "title": "Free Fire",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_free_fire.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.HoYoverse.hkrpgoversea",
+    "title": "崩壞：星穹鐵道",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Honkai_Star_Rail.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.miHoYo.GenshinImpact",
+    "title": "原神",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Genshin_Impact.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.kurogame.wutheringwaves.global",
+    "title": "鳴潮",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_wuthering_waves.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.papegames.lysk.en",
+    "title": "Love and Deepspace",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Love_and_Deepspace.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.riotgames.league.teamfighttactics",
+    "title": "TFT：《聯盟戰棋》",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_TFT.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.proximabeta.nikke",
+    "title": "胜利女神：妮姬",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Goddess_of_Victory.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.papegames.nn4.en",
+    "title": "Shining Nikki",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Shining_Nikki.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.newstargames.retrobowl",
+    "title": "Retro Bowl",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Retro_Bowl.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  }
+]

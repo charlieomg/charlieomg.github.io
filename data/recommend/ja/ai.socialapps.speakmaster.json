@@ -1,0 +1,200 @@
+[
+  {
+    "id": "com.proxima.dfm",
+    "title": "Delta Force",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_delta_force.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.weaver.app.prod",
+    "title": "Talkie: あなただけのAIチャット",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Talkie_Creative_AI_Community.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.roblox.client",
+    "title": "Roblox",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Roblox.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.cygames.umamusume",
+    "title": "Umamusume: Pretty Derby",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Umamusume_Pretty_Derby.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.kitkagames.fallbuddies",
+    "title": "スタンブルガイズ (Stumble Guys)",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Stumble_Guys.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.levelinfinite.sgameGlobal",
+    "title": "Honor of Kings",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_honor_of_kings.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.proximabeta.nikke",
+    "title": "勝利の女神：NIKKE",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Goddess_of_Victory.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.netease.dfjssea",
+    "title": "Racing Master",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/Racing_Master.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "ai.character.app",
+    "title": "Character AI: Chat, Talk, Text",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Character_AI.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.netmarble.sololv",
+    "title": "俺だけレベルアップな件：Arise",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_solo_leveling.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.kurogame.wutheringwaves.global",
+    "title": "鳴潮",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_wuthering_waves.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.mobile.legends",
+    "title": "モバイル·レジェンド: Bang Bang",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Mobile_Legends_Bang_Bang.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.dts.freefiremax",
+    "title": "Free Fire MAX",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Free_Fire_Max.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.supercell.clashroyale",
+    "title": "クラッシュ・ロワイヤル",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Clash_Royale.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.gaijingames.wtm",
+    "title": "War Thunder Mobile",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_war_thunder_mobile.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.miHoYo.GenshinImpact",
+    "title": "原神",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Genshin_Impact.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.supercell.brawlstars",
+    "title": "ブロスタ",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Brawl_Stars.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.nexon.bluearchive",
+    "title": "Blue Archive",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_blue_archive.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "jp.konami.pesam",
+    "title": "eFootball™",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_eFootball_2024.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.mobilechess.gp",
+    "title": "Magic Chess: Go Go",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Magic_Chess_Go_Go.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.dvloper.granny",
+    "title": "Granny",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Granny.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.ea.gp.fifamobile",
+    "title": "EA SPORTS FC™ Mobile サッカー",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_EA_SPORTS_FC_Mobile.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  }
+]

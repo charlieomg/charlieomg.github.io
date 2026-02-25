@@ -1,0 +1,155 @@
+[
+  {
+    "id": "com.dts.freefiremax",
+    "title": "Free Fire MAX",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Free_Fire_Max.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.roblox.client",
+    "title": "Roblox",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Roblox.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.netease.newspike",
+    "title": "Blood Strike",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Blood_Strike.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.levelinfinite.sgameGlobal",
+    "title": "Honor of Kings",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_honor_of_kings.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.ea.gp.fifamobile",
+    "title": "EA SPORTS FC™ Mobile Sepakbola",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_EA_SPORTS_FC_Mobile.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.mobile.legends",
+    "title": "Mobile Legends: Bang Bang",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Mobile_Legends_Bang_Bang.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.tencent.ig",
+    "title": "PUBG MOBILE",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Pubg_Mobile.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.HoYoverse.hkrpgoversea",
+    "title": "Honkai: Star Rail",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Honkai_Star_Rail.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.netease.idv.googleplay",
+    "title": "Identity V",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_identity_v.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.supercell.clashroyale",
+    "title": "Clash Royale",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Clash_Royale.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.kitkagames.fallbuddies",
+    "title": "Stumble Guys",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Stumble_Guys.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.devsisters.ck",
+    "title": "CookieRun: Kingdom",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_cookierun_kingdom.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.miHoYo.GenshinImpact",
+    "title": "Genshin Impact",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Genshin_Impact.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.garena.game.df",
+    "title": "Garena® Delta Force",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Garena_Delta_Force.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "jp.co.ponos.battlecatsen",
+    "title": "The Battle Cat‪s‬",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_The_Battle_Cats.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.kurogame.gplay.punishing.grayraven.en",
+    "title": "Punishing: Gray Raven",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Punishing_Gray_Raven.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "jp.konami.pesam",
+    "title": "eFootball™",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_eFootball_2024.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  }
+]

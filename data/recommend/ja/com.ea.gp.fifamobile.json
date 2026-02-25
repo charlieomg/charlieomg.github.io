@@ -1,0 +1,164 @@
+[
+  {
+    "id": "jp.konami.pesam",
+    "title": "eFootball™",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_eFootball_2024.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.roblox.client",
+    "title": "Roblox",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Roblox.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.netease.newspike",
+    "title": "Blood Strike",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Blood_Strike.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.mobilechess.gp",
+    "title": "Magic Chess: Go Go",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Magic_Chess_Go_Go.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.levelinfinite.sgameGlobal",
+    "title": "Honor of Kings",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_honor_of_kings.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.mobile.legends",
+    "title": "モバイル·レジェンド: Bang Bang",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Mobile_Legends_Bang_Bang.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.dts.freefireth",
+    "title": "Free Fire",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_free_fire.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.dts.freefiremax",
+    "title": "Free Fire MAX",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Free_Fire_Max.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.tentree.gp.un.mecharashi",
+    "title": "Mecharashi",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Mecharashi.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.nexon.bluearchive",
+    "title": "Blue Archive",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_blue_archive.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.supercell.brawlstars",
+    "title": "ブロスタ",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Brawl_Stars.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.bandainamcoent.dblegends_ww",
+    "title": "DRAGON BALL LEGENDS",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_DRAGON_BALL_LEGENDS_251020.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.supercell.clashroyale",
+    "title": "クラッシュ・ロワイヤル",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Clash_Royale.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.gaijingames.wtm",
+    "title": "War Thunder Mobile",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_war_thunder_mobile.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.devsisters.ck",
+    "title": "クッキーラン：キングダム",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_cookierun_kingdom.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.HoYoverse.Nap",
+    "title": "ゼンレスゾーンゼロ",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_zenless_zone_zero_new.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.cygames.umamusume",
+    "title": "Umamusume: Pretty Derby",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Umamusume_Pretty_Derby.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "us.kr.baseballnine",
+    "title": "プロ野球ナイン",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_BASEBALL_9.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  }
+]

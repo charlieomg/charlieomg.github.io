@@ -1,0 +1,155 @@
+[
+  {
+    "id": "com.roblox.client",
+    "title": "Roblox",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Roblox.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.kurogame.wutheringwaves.global",
+    "title": "Wuthering Waves",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_wuthering_waves.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.miHoYo.GenshinImpact",
+    "title": "Genshin Impact",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Genshin_Impact.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.devsisters.ck",
+    "title": "CookieRun: Kingdom",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_cookierun_kingdom.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.garena.game.kgth",
+    "title": "Garena RoV: Super ROV Day!",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Garena_Mobile_th.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.papegames.lysk.en",
+    "title": "Love and Deepspace",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Love_and_Deepspace.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.levelinfinite.sgameGlobal",
+    "title": "Honor of Kings",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_honor_of_kings.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.epicgames.fortnite",
+    "title": "Fortnite",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Fortnite.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.HoYoverse.Nap",
+    "title": "Zenless Zone Zero",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_zenless_zone_zero_new.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.netease.yysls",
+    "title": "Where Winds Meet",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Where_Winds_Meet.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.devsisters.cba",
+    "title": "คุกกี้รัน: ศึกคุกกี้บุกหอคอย",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_CookieRun_Tower_of_Adventures.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.infoldgames.infinitynikkien",
+    "title": "Infinity Nikki",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Infinity_Nikki.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.mobile.legends",
+    "title": "Mobile Legends: Bang Bang",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Mobile_Legends_Bang_Bang.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.bluepoch.m.en.reverse1999",
+    "title": "Reverse: 1999",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_reverse_1999.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.HoYoverse.hkrpgoversea",
+    "title": "Honkai: Star Rail",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Honkai_Star_Rail.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.aniplex.twst.en",
+    "title": "Disney Twisted-Wonderland",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Disney_Twisted_Wonderland.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  },
+  {
+    "id": "com.proximabeta.nikke",
+    "title": "GODDESS OF VICTORY: NIKKE",
+    "image": "https://cloudmoon-1305370474.cos.ap-singapore.myqcloud.com/cloudgame-icon/icon_Goddess_of_Victory.webp",
+    "status": 1,
+    "is_high": false,
+    "disabled": false,
+    "is_pc": false
+  }
+]
